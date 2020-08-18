@@ -1,7 +1,42 @@
+@import "utils/_fonts";
 
+// Variables
+$lato: 'Lato', sans-serif;
+$plantinMTPro: 'Plantin MT Pro', sans-serif;
+$plantinMTRegular: 'Plantin MT Pro Regular', sans-serif;
+$plantinMTItalic: 'Plantin MT Pro Italic', sans-serif;
+$plantinMTLight: 'Plantin MT Pro Light', sans-serif;
+$plantinMTLightItalic: 'Plantin MT Pro Light Italic', sans-serif;
+$plantinMTSemibold: 'Plantin MT Pro Semibold', sans-serif;
+$plantinMTSemiboldItalic: 'Plantin MT Semibold Italic', sans-serif;
+$plantinMTBold: 'Plantin MT Pro Bold', sans-serif;
+$plantinMTBoldCondensed: 'Plantin MT Bold Condensed', sans-serif;
+$plantinMTBoldItalic: 'Plantin MT Bold Italic', sans-serif;
 
-@import '_reset';
-@import '_global';
-@import '_header';
-@import '_footer';
-@import '_template-homepage';
+@import "utils/_reset";
+@import "utils/_helpers";
+@import "components/_header";
+@import "components/_homepage-slider";
+@import "components/_collection";
+@import "components/_homepage-categories";
+@import "components/_homepage-section";
+@import "components/_products";
+@import "components/_product";
+@import "components/_footer";
+@import "components/_breadcrumbs";
+@import "components/_pagination";
+@import "components/_section";
+
+@import "lib/swiper";
+
+body {
+    font-family: $lato; 
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1917px;
+    padding: 0 50px;
+    margin: auto;
+}

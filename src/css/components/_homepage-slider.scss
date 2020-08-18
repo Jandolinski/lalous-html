@@ -1,0 +1,59 @@
+.homepage-slider {
+  width: 100%;
+  margin-bottom: 88px;
+  &__slide {
+    height: calc(100vh - 115px);
+    .slide {
+      &__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      &__link {
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: relative;
+      }
+      &__content {
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 40px 30px 0;
+      }
+      &__heading {
+        max-width: 50%;
+        text-transform: uppercase;
+        .heading {
+          &__non-serif {
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 300;
+            letter-spacing: 1.6px;
+            color: #5e5e5e;
+            margin-bottom: 3px;
+          }
+          &__serif {
+            font-family: $plantinMTPro;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            color: #5e5e5e;
+            letter-spacing: 0px;
+            color: #5e5e5e;
+          }
+        }
+      }
+      &__btn {
+        text-decoration: underline;
+        letter-spacing: 2.15px;
+        color: #5E5E5E;
+        font-size: 10px;
+      }
+    }
+  }
+}

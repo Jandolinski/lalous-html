@@ -1,0 +1,21 @@
+.products {
+  &__heading {
+    font-family: $plantinMTPro;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 4.86px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0 auto 90px;
+    text-align: center;
+  }
+  &__list {
+      margin: 0 -25px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  &--featured {
+    margin: 95px 0;
+  }
+}

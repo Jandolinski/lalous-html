@@ -1,0 +1,32 @@
+.pagination {
+    &__list {
+        display: flex;
+        position: relative;
+        padding: 0 20px;
+        &::before,
+        &::after {
+            content: '';
+            width: 4px;
+            height: 8px;
+            background-color: #000000;
+            display: block;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &::before {
+            left: 0;
+        }
+        &::after {
+            right: 0;
+        }
+    }
+    &__item {
+        font-size: 10px;
+        color: #000;
+        margin-right: 8px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

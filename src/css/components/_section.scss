@@ -1,0 +1,103 @@
+.section {
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 46px 0;
+  }
+  &__filter {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.filter {
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    .item {
+      &__label {
+        font-size: 8px;
+        letter-spacing: 0.8px;
+        color: #737373;
+        text-transform: uppercase;
+        margin-right: 10px;
+      }
+      &__dropdown {
+        .dropdown {
+          &__title {
+            font-size: 10px;
+            letter-spacing: 0.97px;
+            color: #000000;
+            &::after {
+              content: "";
+              width: 4px;
+              height: 5px;
+              background-image: url(../img/arrow--black--short.svg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              position: absolute;
+              right: 10px;
+              top: 50%;
+              transform: rotate(90deg) translateX(-50%);
+            }
+          }
+          &__menu-item {
+            font-size: 10px;
+            letter-spacing: 0.97px;
+            color: #000000;
+          }
+        }
+      }
+    }
+    &:last-child {
+      margin-right: 12px;
+    }
+  }
+}
+
+.dropdown {
+  color: #7a7a7a;
+  width: 150px;
+  position: relative;
+  &__title {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    color: #232323;
+    background: #fff;
+    padding: 6px 14px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+  }
+  &__menu-item {
+    display: block;
+    color: #232323;
+    padding: 6px 14px;
+    &:hover {
+      background: #fddfe7;
+      text-decoration: none;
+    }
+  }
+  &__menu {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    left: 0;
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
+    margin: 0;
+    display: none;
+  }
+  &.active {
+    .dropdown {
+      &__menu {
+        display: block;
+      }
+    }
+  }
+}

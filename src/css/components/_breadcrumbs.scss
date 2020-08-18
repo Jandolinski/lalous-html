@@ -1,0 +1,23 @@
+.breadcrumbs {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item {
+    font-size: 8px;
+    letter-spacing: 0.8px;
+    color: #737373;
+    text-transform: uppercase;
+    &::after {
+        content: ' / ';
+        white-space: pre-wrap;
+    }
+    &:last-child {
+        font-weight: 900;
+        color: #000000;
+        &::after {
+            content: none;
+        }
+    }
+  }
+}

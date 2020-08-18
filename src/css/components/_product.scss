@@ -1,0 +1,94 @@
+.product {
+    width: calc(100% / 3 - 50px);
+    margin: 0 25px;
+    &__thumbnail {
+        width: 100%;
+        height: 855px;
+        margin-bottom: 24px;
+        display: block;
+        margin-bottom: 24px;
+        position: relative;
+        .thumbnail {
+            &__img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+    }
+    &__flags {
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+    }
+    &__details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__variant-links {
+        display: flex;
+        align-items: stretch;
+    }
+    &__variant-link {
+        width: 13px;
+        height: 13px;
+        display: block;
+        margin-right: 6px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__price {
+        padding-left: 22px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        .price {
+            &__value {
+                font-size: 13px;
+                font-weight: 900;
+                color: #000;
+                text-transform: uppercase;
+            }
+        }
+        &::before {
+            content: '';
+            width: 4px;
+            height: 5px;
+            background-image: url(../img/arrow--black--short.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &__bottom {
+        margin-top: 47px;
+    }
+    &__title {
+        font-family: $plantinMTPro;
+        font-weight: 300;
+        font-size: 12px;
+        color: #000;
+        line-height: 15px;
+        text-align: center;
+        margin: 0 auto;
+        text-transform: uppercase;
+        letter-spacing: 2.43px;
+        max-width: 220px;
+        text-decoration: underline;
+    }
+    &--small {
+        width: calc(100% / 4 - 50px);
+        .product {
+            &__thumbnail {
+                height: 624px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
