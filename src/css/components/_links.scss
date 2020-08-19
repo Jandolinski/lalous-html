@@ -1,0 +1,25 @@
+.link_std {
+    font-family: $plantinMTPro;
+    font-weight: 400;
+    text-decoration: underline;
+
+    position: relative;
+
+    padding-right: 16px;
+
+    // max-width: calc(100% - 5px);
+
+    &--sub-menu{
+        padding-right: 60px;
+    }
+
+    &::after {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        content: url('./img/link_arr.svg');
+
+
+    }
+}

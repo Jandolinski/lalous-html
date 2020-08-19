@@ -1,3 +1,38 @@
 .sr-only {
     display: none;
 }
+
+/* ==========================================================================
+   #BREAKPOINTS-VARIABLES
+   ========================================================================== */
+
+$xxxxs: 320px;
+$xxxs: 400px;
+$xxs: 540px;
+$xs: 640px;
+$s: 768px;
+$m: 980px;
+$l: 1280px;
+$xl: 1440px;
+$xxl: 1600px;
+$xxxl: 1920px;
+
+$b_p: (
+    s-phone: $xxxxs,
+    phone: $xxxs,
+    b-phone: $xxs,
+    phablet: $xs,
+    tablet: $m,
+    mobile: $m,
+    small-laptop: $l,
+    laptop: $xl,
+    hd: $xxl,
+    fullhd: $xxxl);
+
+@mixin absolute_max {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

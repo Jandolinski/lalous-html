@@ -1,23 +1,36 @@
 .header {
+
+  // padding: 38px 0;
   background-color: #fddfe7;
-  padding: 38px 0;
+
+  position: relative;
+  z-index: 999;
+
+
   &__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: relative;
+    z-index: 5;
   }
+
   &__group {
     display: flex;
     align-items: center;
   }
+
   &__menu {
     display: flex;
     align-items: center;
+
     .menu {
       &__list {
         display: flex;
         align-items: center;
       }
+
       &-item {
         font-size: 12px;
         letter-spacing: 2.3px;
@@ -25,15 +38,66 @@
         text-transform: uppercase;
         margin-right: 25px;
         font-weight: 400;
+
+        padding: 43px 0;
+
         &:last-child {
           margin-right: 0;
         }
+
+        &:hover {
+          .sub-menu {
+            transform: translateX(0%);
+          }
+        }
       }
     }
+
     .sub-menu {
-      display: none;
+      position: fixed;
+      display: flex;
+      padding: 0 50px 44px;
+      z-index: -1;
+
+      left: 0;
+      right: 0;
+      width: 100%;
+      top: 100px;
+
+      transition: all 0.3s;
+
+      transform: translateX(-150%);
+
+      background-color: #ffffff;
+
+      .sub-menu__item {
+        width: 25%;
+        margin: 0 25px;
+
+        &--blog {
+          .sub-menu__item__img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+
+            margin-bottom: 44px;
+          }
+        }
+
+        @media screen and (min-width: 1200px) {
+
+          &:first-child {
+            margin-left: 0;
+          }
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
     }
   }
+
   &__link {
     font-size: 12px;
     font-weight: 400;
@@ -41,14 +105,17 @@
     letter-spacing: 2.2px;
     color: #000000;
     text-transform: uppercase;
+
     &--create-account {
-        margin-right: 24px;
+      margin-right: 24px;
     }
   }
+
   &__link-icon {
     margin-right: 20px;
     display: flex;
     align-items: center;
+
     .link-icon {
       &__icon {
         width: 16px;
@@ -56,16 +123,20 @@
         display: block;
         background-repeat: no-repeat;
         background-size: contain;
+
         &--search {
           background-image: url(../img/search.svg);
         }
+
         &--account {
           background-image: url(../img/user.svg);
         }
+
         &--cart {
           background-image: url(../img/bag.svg);
         }
       }
+
       &__text {
         margin-left: 10px;
         font-size: 12px;
@@ -74,6 +145,7 @@
         letter-spacing: 2.59px;
       }
     }
+
     &:last-child {
       margin-right: 0;
     }

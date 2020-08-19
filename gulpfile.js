@@ -12,7 +12,7 @@ const livereload = require('gulp-livereload');
 const fs = require('fs');
 
 let dirs = {
-	css: 'src/css/*.scss',
+	css: ['src/css/*.scss', 'src/css/**/*.scss'],
 	js: 'src/js/*.js',
 	build: 'dist/',
 	buildcss: 'dist/build-style.js',

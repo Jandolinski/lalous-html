@@ -27,6 +27,9 @@ $plantinMTBoldItalic: 'Plantin MT Bold Italic', sans-serif;
 @import "components/_pagination";
 @import "components/_section";
 
+@import "components/_links.scss";
+@import "components/_layout.scss";
+
 @import "lib/swiper";
 
 body {
@@ -39,4 +42,8 @@ body {
     max-width: 1917px;
     padding: 0 50px;
     margin: auto;
+
+    @media screen and (max-width: $m){
+        padding: 0 20px;
+    }
 }
