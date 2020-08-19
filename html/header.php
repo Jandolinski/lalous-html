@@ -57,7 +57,7 @@
                                                     <?php for ($i = 1; $i <= 7; $i++) : ?>
                                                         <li class="sub-menu_list__item">
                                                             <a href="menu-dropdown-item">
-                                                                Kombinezony
+                                                                Marynarki
                                                             </a>
                                                         </li>
                                                     <?php endfor; ?>
@@ -66,17 +66,20 @@
                                                     <?php for ($i = 1; $i <= 3; $i++) : ?>
                                                         <li class="sub-menu_list__item">
                                                             <a href="menu-dropdown-item">
-                                                                Kombinezony
+                                                                Bestsellery
                                                             </a>
                                                         </li>
                                                     <?php endfor; ?>
                                                 </ul>
                                             </div>
                                         </li>
-                                        
+
                                         <?php for ($i = 1; $i <= 3; $i++) : ?>
                                             <li class="sub-menu__item">
-                                                <img class="sub-menu__img" src="<?php asset('blog--menu.png'); ?>" alt="">
+                                                <a href="" class="max_width">
+                                                    <img class="sub-menu__img" src="<?php asset('blog--menu.png'); ?>" alt="">
+                                                </a>
+
                                                 <a href="" class="link_std link_std--sub-menu">
                                                     Quisque pellentesque elementum...
                                                 </a>
@@ -92,7 +95,10 @@
                                     <ul class="sub-menu sub-menu--blog">
                                         <?php for ($i = 1; $i <= 4; $i++) : ?>
                                             <li class="sub-menu__item">
-                                                <img class="sub-menu__img" src="<?php asset('blog--menu.png'); ?>" alt="">
+                                                <a class="max_width" href="">
+                                                    <img class="sub-menu__img" src="<?php asset('blog--menu.png'); ?>" alt="">
+                                                </a>
+                                                
                                                 <a href="" class="link_std link_std--sub-menu">
                                                     Quisque pellentesque elementum...
                                                 </a>

@@ -1,17 +1,28 @@
 @import "utils/_fonts";
 
 // Variables
-$lato: 'Lato', sans-serif;
-$plantinMTPro: 'Plantin MT Pro', sans-serif;
-$plantinMTRegular: 'Plantin MT Pro Regular', sans-serif;
-$plantinMTItalic: 'Plantin MT Pro Italic', sans-serif;
-$plantinMTLight: 'Plantin MT Pro Light', sans-serif;
-$plantinMTLightItalic: 'Plantin MT Pro Light Italic', sans-serif;
-$plantinMTSemibold: 'Plantin MT Pro Semibold', sans-serif;
-$plantinMTSemiboldItalic: 'Plantin MT Semibold Italic', sans-serif;
-$plantinMTBold: 'Plantin MT Pro Bold', sans-serif;
-$plantinMTBoldCondensed: 'Plantin MT Bold Condensed', sans-serif;
-$plantinMTBoldItalic: 'Plantin MT Bold Italic', sans-serif;
+$lato: 'Lato',
+sans-serif;
+$plantinMTPro: 'Plantin MT Pro',
+sans-serif;
+$plantinMTRegular: 'Plantin MT Pro Regular',
+sans-serif;
+$plantinMTItalic: 'Plantin MT Pro Italic',
+sans-serif;
+$plantinMTLight: 'Plantin MT Pro Light',
+sans-serif;
+$plantinMTLightItalic: 'Plantin MT Pro Light Italic',
+sans-serif;
+$plantinMTSemibold: 'Plantin MT Pro Semibold',
+sans-serif;
+$plantinMTSemiboldItalic: 'Plantin MT Semibold Italic',
+sans-serif;
+$plantinMTBold: 'Plantin MT Pro Bold',
+sans-serif;
+$plantinMTBoldCondensed: 'Plantin MT Bold Condensed',
+sans-serif;
+$plantinMTBoldItalic: 'Plantin MT Bold Italic',
+sans-serif;
 
 @import "utils/_reset";
 @import "utils/_helpers";
@@ -29,11 +40,13 @@ $plantinMTBoldItalic: 'Plantin MT Bold Italic', sans-serif;
 
 @import "components/_links.scss";
 @import "components/_layout.scss";
+@import "components/_containers.scss";
+@import "components/_typography.scss";
 
 @import "lib/swiper";
 
 body {
-    font-family: $lato; 
+    font-family: $lato;
     overflow-x: hidden;
 }
 
@@ -43,12 +56,12 @@ body {
     padding: 0 50px;
     margin: auto;
 
-    @media screen and (max-width: $xl){
+    @media screen and (max-width: $xl) {
         padding: 0 20px;
     }
 }
 
 // DELETE THIS!!!!
-a{
+a {
     pointer-events: none;
 }
