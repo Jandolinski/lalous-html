@@ -11,6 +11,10 @@
 
     &--sub-menu{
         padding-right: 60px;
+
+        @media screen and (max-width: $xl) {
+            padding-right: 30px;
+        }
     }
 
     &::after {

@@ -43,7 +43,12 @@ body {
     padding: 0 50px;
     margin: auto;
 
-    @media screen and (max-width: $m){
+    @media screen and (max-width: $xl){
         padding: 0 20px;
     }
+}
+
+// DELETE THIS!!!!
+a{
+    pointer-events: none;
 }
