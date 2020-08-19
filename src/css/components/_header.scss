@@ -80,7 +80,7 @@
     }
 
     .sub-menu {
-      position: fixed;
+      position: absolute;
       display: flex;
       padding: 0 50px 44px;
       z-index: -1;
@@ -97,7 +97,7 @@
       background-color: #ffffff;
 
       @media screen and (max-width: $xl) {
-        padding: 0 20px;
+        padding: 0 20px 44px;
       }
 
       &--e_sklep {
@@ -107,7 +107,7 @@
           .sub-menu__item {
             width: calc(33.3% - 33px);
 
-            margin-bottom: 40px;
+            // margin-bottom: 40px;
 
             // max-width: calc(33.3% - 33px);
             &:nth-child(2) {
@@ -177,7 +177,12 @@
                   right: 0;
                   top: 50%;
                   transform: translateY(-50%);
-                  content: url('./img/link_arr.svg');
+                  content: '';
+                  background-image: url('./img/link_arr.svg');
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  width: 5px;
+                  height: 7px;
                 }
               }
             }

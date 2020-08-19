@@ -4,21 +4,22 @@
     <!-- "okruszki" -->
 
     <?php for ($i = 1; $i <= 3; $i++) : ?>
-        <div class="poster <?php if ($i % 2 == 0) {
-                                echo 'poster--rev';
-                            } ?>">
+        <article class="poster <?php if ($i % 2 == 0) {
+                                    echo 'poster--rev';
+                                } ?>">
             <div class="poster__wrapper">
-                <div class="poster__img_content">
+                <div class="poster__img-content">
                     <img class="poster__main_img" src="<?php asset('about.png'); ?>" alt="">
+                    <img src="<?php dist('img/rect.svg'); ?>" alt="" class="magic-rect">
                 </div>
 
                 <div class="poster__description description">
                     <div class="description__top">
                         <img src="<?php asset('about.png'); ?>" alt="">
-                        <div class="description__title">
+                        <h2 class="description__title">
                             O MARCE <br>
                             LALOUS
-                        </div>
+                        </h2>
                     </div>
 
                     <div class="description__center">
@@ -34,7 +35,7 @@
 
                     <div class="description__bottom">
                         <div class="description__column">
-                            <div class="description__special_text">
+                            <div class="description__special-text">
                                 LALOUS
                             </div>
                             <div class="pink_line"></div>
@@ -43,7 +44,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
     <?php endfor; ?>
 </div>
 
