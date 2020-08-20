@@ -65,7 +65,7 @@
 
                     <button type="submit" class="form__submit">
                         <span>WYŚLIJ WIADOMOŚĆ</span>
-                        <?php svg('form_arr.svg');?>
+                        <?php svg('form_arr.svg'); ?>
                     </button>
                 </form>
             </div>
@@ -78,55 +78,55 @@
                 PUNKTY SPRZEDAŻY
             </div>
 
-            <?php for($i = 1; $i<=2; $i++):?>
-            <div class="contact__map map">
-                <div class="map__label map-label">
-                    <div class="map-label__title">
-                        NAZWA SKLEPU
+            <?php for ($i = 1; $i <= 2; $i++) : ?>
+                <div class="contact__map map">
+                    <div class="map__label map-label">
+                        <div class="map-label__title">
+                            NAZWA SKLEPU
+                        </div>
+
+                        <div class="line line--black"></div>
+
+                        <div class="map-label__row">
+                            <div class="map-label__sub-title">
+                                Adres:
+                            </div>
+
+                            <div class="map-label__text">
+                                12-345, Miasto <br>
+                                ul. Przykładowa 12/3A
+                            </div>
+                        </div>
+
+                        <div class="line"></div>
+
+                        <div class="map-label__row">
+                            <div class="map-label__sub-title">
+                                NUMER TELEFONU:
+                            </div>
+
+                            <div class="map-label__text">
+                                <a href="tel:+48123456789">+48 123 456 789</a>
+                            </div>
+                        </div>
+
+                        <div class="line"></div>
+
+                        <div class="map-label__row">
+                            <div class="map-label__sub-title">
+                                ADRES E-MAIL:
+                            </div>
+
+                            <div class="map-label__text">
+                                <a href="mailto:adres@email.com">adres@email.com</a>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="line line--black"></div>
-
-                    <div class="map-label__row">
-                        <div class="map-label__sub-title">
-                            Adres: 
-                        </div>
-
-                        <div class="map-label__text">
-                            12-345, Miasto <br>
-                            ul. Przykładowa 12/3A
-                        </div>
-                    </div>
-
-                    <div class="line"></div>
-
-                    <div class="map-label__row">
-                        <div class="map-label__sub-title">
-                            NUMER TELEFONU:
-                        </div>
-
-                        <div class="map-label__text">
-                            <a href="tel:+48123456789">+48 123 456 789</a>
-                        </div>
-                    </div>
-
-                    <div class="line"></div>
-
-                    <div class="map-label__row">
-                        <div class="map-label__sub-title">
-                            ADRES E-MAIL:
-                        </div>
-
-                        <div class="map-label__text">
-                            <a href="mailto:adres@email.com">adres@email.com</a>
-                        </div>
+                    <div class="map__container">
+                        <img src="<?php asset('map.png'); ?>" alt="">
                     </div>
                 </div>
-                <div class="map__container">
-                    <img src="<?php asset('map.png');?>" alt="">
-                </div>
-            </div>
-            <?php endfor;?>
+            <?php endfor; ?>
 
         </div>
     </div>

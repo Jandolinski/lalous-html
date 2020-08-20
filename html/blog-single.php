@@ -63,13 +63,13 @@
                     <article class="posts__item post">
 
                         <a href="" class="post__img-wrapper">
-                            <div class="post__img" style="background-image: url(<?php asset('blog_list.png');?>);">
+                            <div class="post__img" style="background-image: url(<?php asset('blog_list.png'); ?>);">
                             </div>
                         </a>
 
                         <div class="post__content description">
                             <div class="description__top">
-                                <div class="blog__label blog__label--green"> 
+                                <div class="blog__label blog__label--green">
                                     <!-- green , pink , yellow , blue -->
                                     NOWOŚCI
                                 </div>

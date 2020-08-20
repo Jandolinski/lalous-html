@@ -46,6 +46,16 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        &--big-margin{
+
+            .description .description__top{
+                margin-bottom: 240px;
+            }
+            .poster__main_img{
+                margin-bottom: 120px;
+            }
+        }
     }
 
     &__description {
@@ -116,6 +126,21 @@
 
 }
 
+.the-biggest-title{
+    padding: 100px 20px 200px;
+
+    color: #000000;
+    font-family: $plantinMTLight;
+    font-size: 140px;
+    font-weight: 300;
+    letter-spacing: 28px;
+    line-height: 167.99px;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+    text-align: center;
+}
+
 @media(max-width: 1600px) {
     .poster {
 
@@ -148,6 +173,7 @@
 
                 flex-direction: row-reverse;
                 justify-content: flex-end;
+
 
                 img {
                     margin-bottom: 20px;
@@ -195,7 +221,24 @@
 
         &__wrapper {
             flex-direction: column-reverse;
+
+            &--big-margin{
+
+                .description .description__top{
+                    margin-bottom: 40px;
+                }
+                .poster__main_img{
+                    margin-bottom: 0px;
+                }
+            }
         }
+    }
+
+    .the-biggest-title{
+        font-size: 74px;
+        letter-spacing: 7px;
+        line-height: 90px;
+        padding: 50px 20px 60px;
     }
 }
 
@@ -207,6 +250,7 @@
         }
     }
 }
+
 
 @media (max-width: 640px) {
     .poster {
@@ -245,5 +289,17 @@
                 }
             }
         }
+    }
+
+    .the-biggest-title{
+        font-size: 44px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 340px){
+    .the-biggest-title{
+        font-size: 34px;
+        line-height: 50px;
     }
 }
