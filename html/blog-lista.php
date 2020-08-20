@@ -18,12 +18,12 @@
 
                         <div class="post__content description">
                             <div class="description__top">
-                                <div class="description__label description__label--green"> 
+                                <div class="blog__label blog__label--green"> 
                                     <!-- green , pink , yellow , blue -->
                                     NOWOŚCI
                                 </div>
 
-                                <div class="description__date">
+                                <div class="blog__date">
                                     24.06.2020
                                 </div>
                             </div>

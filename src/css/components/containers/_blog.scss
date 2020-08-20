@@ -79,44 +79,6 @@
                     padding-bottom: 40px;
                 }
 
-                &__label {
-                    min-width: 105px;
-
-                    padding: 7px 23px;
-
-                    color: $c-Black;
-                    font-family: $lato;
-                    font-size: 10px;
-                    font-weight: 900;
-                    letter-spacing: 0.49px;
-                    text-transform: uppercase;
-
-                    &--green {
-                        background-color: #defde9;
-                    }
-
-                    &--pink {
-                        background-color: #fddfe7;
-                    }
-
-                    &--yellow {
-                        background-color: #fdefde;
-                    }
-
-                    &--blue {
-                        background-color: #deeafd;
-                    }
-                }
-
-                &__date {
-                    color: $c-Nobel;
-                    font-family: $lato;
-                    font-size: 10px;
-                    font-weight: 400;
-                    letter-spacing: 1.01px;
-                    line-height: 12.07px;
-                }
-
                 &__center {
                     width: 100%;
 
@@ -153,6 +115,48 @@
                 }
             }
         }
+    }
+
+    &__label {
+        min-width: 105px;
+
+        padding: 7px 23px;
+
+        color: $c-Black;
+        font-family: $lato;
+        font-size: 10px;
+        font-weight: 900;
+        letter-spacing: 0.49px;
+        text-transform: uppercase;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &--green {
+            background-color: #defde9;
+        }
+
+        &--pink {
+            background-color: #fddfe7;
+        }
+
+        &--yellow {
+            background-color: #fdefde;
+        }
+
+        &--blue {
+            background-color: #deeafd;
+        }
+    }
+
+    &__date {
+        color: $c-Nobel;
+        font-family: $lato;
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 1.01px;
+        line-height: 12.07px;
     }
 }
 

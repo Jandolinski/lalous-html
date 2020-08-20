@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7.62" height="12.3" viewBox="0 0 7.62 12.3">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="7.62" height="12.3" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-51.69 -1937.35)">
+      <path id="Kształt_1_kopia_3" data-name="Kształt 1 kopia 3" d="M57.82,1949.65a1.393,1.393,0,0,0-.09-.108q-2.961-2.968-5.923-5.934a.836.836,0,0,0-.117-.083c0-.016,0-.034,0-.05a.814.814,0,0,0,.117-.083q2.963-2.966,5.924-5.934c.033-.033.06-.072.09-.108h.024l1.466,1.446-4.708,4.716,4.7,4.7-1.453,1.434Z" fill="#636363"/>
+    </g>
+  </g>
+</svg>
