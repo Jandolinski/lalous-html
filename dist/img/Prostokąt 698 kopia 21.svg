@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.44" height="19.44" viewBox="0 0 19.44 19.44">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fddfe7"/>
+      <stop offset="1" stop-color="#db9faf"/>
+    </linearGradient>
+  </defs>
+  <rect id="Prostokąt_698_kopia_21" data-name="Prostokąt 698 kopia 21" width="19.44" height="19.44" fill="url(#linear-gradient)"/>
+</svg>
