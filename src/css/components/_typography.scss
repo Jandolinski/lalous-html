@@ -5,7 +5,20 @@
     letter-spacing: 0.73px;
     line-height: 22.7px;
 
+    h4{
+        font-family: $plantinMTLight;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        line-height: 18px;
+        text-transform: uppercase;
+
+        text-decoration: underline;
+
+        padding-bottom: 25px;
+    }
+
     p{
-        padding-bottom: 30px;
+        padding-bottom: 25px;
     }
 }

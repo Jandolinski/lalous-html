@@ -98,7 +98,7 @@
                                                 <a class="max_width" href="">
                                                     <img class="sub-menu__img" src="<?php asset('blog--menu.png'); ?>" alt="">
                                                 </a>
-                                                
+
                                                 <a href="" class="link_std link_std--sub-menu">
                                                     Quisque pellentesque elementum...
                                                 </a>
