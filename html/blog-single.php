@@ -11,27 +11,27 @@
         <div class="blog-single__content content">
             <header class="content__header">
                 <div class="content__header-top">
-                    <div class="blog__label blog__label--green">
+                    <p class="blog__label blog__label--green">
                         <!-- green , pink , yellow , blue -->
                         NOWOŚCI
-                    </div>
+                    </p>
 
-                    <div class="blog__date">
+                    <time datatime="2020-24-06" class="blog__date">
                         24.06.2020
-                    </div>
+                    </time>
                 </div>
 
-                <div class="content__title">
+                <h2 class="content__title">
                     QUIS ELEIFEND
                     PEDE URNA
                     ELIT GRAVIDA
                     JUSTO
-                </div>
+                </h2>
 
             </header>
 
             <div class="content__text">
-                <h4>Fusce venenatis interdum lacus</h4>
+                <h3>Fusce venenatis interdum lacus</h3>
                 <p>Curabitur eget metus sem, imperdiet dignissim, imperdiet sapien. Etiam imperdiet, neque ut justo quis ante. Quisque in mattis at, ornare pulvinar vulputate eu, wisi. Mauris pellentesque, wisi. Mauris tempor diam in nulla nulla, at augue. Aenean lobortis magna fringilla metus, quis massa metus convallis cursus non, fringilla sed, aliquam ut, gravida iaculis ut, ligula. Phasellus ornare a, volutpat odio eu nulla. Suspendisse fermentum nisl pellentesque sed, congue odio at urna augue, congue dolor. Duis eget nisl. Fusce mollis nunc faucibus quis, tellus.
                 </p>
                 <p>Fusce sed ipsum dolor eget dolor sapien tristique purus. Fusce purus convallis auctor. Maecenas eget leo semper nec, pharetra sem, accumsan sed, ullamcorper lorem id nonummy ligula. Praesent volutpat ut, pulvinar porta neque, vitae ornare dapibus. Aenean ligula non dolor. Maecenas quam ultricies a, gravida sollicitudin, urna tortor, fermentum vestibulum. Etiam nibh. Aliquam nec tempor risus. Suspendisse potenti. Vestibulum ante ipsum ultricies massa. Sed porttitor, lacus quis velit. Praesent odio nec odio ac ipsum. Fusce ut justo a augue quam felis eget velit. Aliquam urna. Nulla facilisi. Mauris et metus. Vestibulum ante ipsum primis in felis non ante ipsum primis in vehicula enim dolor libero nec massa.
@@ -69,22 +69,24 @@
 
                         <div class="post__content description">
                             <div class="description__top">
-                                <div class="blog__label blog__label--green">
+                                <p class="blog__label blog__label--green">
                                     <!-- green , pink , yellow , blue -->
                                     NOWOŚCI
-                                </div>
+                                </p>
 
-                                <div class="blog__date">
+                                <time datatime="2020-24-06" class="blog__date">
                                     24.06.2020
-                                </div>
+                                </time>
                             </div>
 
                             <div class="description__center">
                                 <div class="text">
-                                    <h4>
-                                        QUIS ELEIFEND PEDE URNA <br>
-                                        ELIT GRAVIDA JUSTO
-                                    </h4>
+                                    <a href="">
+                                        <h3>
+                                            QUIS ELEIFEND PEDE URNA <br>
+                                            ELIT GRAVIDA JUSTO
+                                        </h3>
+                                    </a>
 
                                     <p>
                                         Cras adipiscing wisi. Curabitur quis nibh. Donec libero dui, eget est a wisi. Praesent justo. Suspendisse sed leo facilisis pharetra. Morbi aliquam euismod nonummy. Class aptent taciti sociosqu ad litora torquent per inceptos hymenaeos. Fusce tellus. Donec consectetuer mollis. Suspendisse semper nisl, blandit lectus. Vivamus dignissim erat at nunc semper erat, fringilla purus sit amet ligula. Sed ultricies quis, feugiat sapien, non dolor...

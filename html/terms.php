@@ -20,9 +20,9 @@
         <?php for ($i = 1; $i <= 10; $i++) : ?>
             <div class="terms__subsection ">
                 <div class="subsection">
-                    <div class="subsection__title">
+                    <h3 class="subsection__title">
                         I. DEFINICJE
-                    </div>
+                    </h3>
 
                     <div class="subsection__text">
                         <p>

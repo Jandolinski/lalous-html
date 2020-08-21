@@ -72,7 +72,7 @@
                 <!-- begin module:ws_newsletter/views/templates/hook/ws_newsletter.tpl -->
                 <!-- begin C:\xampp\htdocs\lalous-dev/modules/ws_newsletter/views/templates/hook/ws_newsletter.tpl -->
                 <div class="newsletter footer__newsletter" id="wsNewsletter">
-                    <h4 class="newsletter__heading">Newsletter</h4>
+                    <h2 class="newsletter__heading">Newsletter</h2>
                     <p class="newsletter__description">Bądź na bieżąco z ofertą naszego sklepu! Dzięki subskrypcji w naszym newsletterze regularnie będziemy informować Cię o naszych najnowszych kolekcjach, promocjach oraz aktualizacjach w outlecie!</p>
                     <form action="http://localhost/lalous-dev/pl/#wsNewsletter" id="wsNewsletterForm" method="post">
                         <div class="newsletter__group">

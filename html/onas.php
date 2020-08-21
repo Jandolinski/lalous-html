@@ -35,9 +35,9 @@
 
                     <div class="description__bottom">
                         <div class="description__column">
-                            <div class="description__special-text">
+                            <p class="description__special-text">
                                 LALOUS
-                            </div>
+                            </p>
                             <div class="pink_line"></div>
                         </div>
                         <img src="<?php asset('about.png'); ?>" alt="">

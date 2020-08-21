@@ -18,22 +18,24 @@
 
                         <div class="post__content description">
                             <div class="description__top">
-                                <div class="blog__label blog__label--green">
+                                <p class="blog__label blog__label--green">
                                     <!-- green , pink , yellow , blue -->
                                     NOWOŚCI
-                                </div>
+                                </p>
 
-                                <div class="blog__date">
+                                <time datatime="2020-24-06" class="blog__date">
                                     24.06.2020
-                                </div>
+                                </time>
                             </div>
 
                             <div class="description__center">
                                 <div class="text">
-                                    <h4>
-                                        QUIS ELEIFEND PEDE URNA <br>
-                                        ELIT GRAVIDA JUSTO
-                                    </h4>
+                                    <a href="">
+                                        <h4>
+                                            QUIS ELEIFEND PEDE URNA <br>
+                                            ELIT GRAVIDA JUSTO
+                                        </h4>
+                                    </a>
 
                                     <p>
                                         Cras adipiscing wisi. Curabitur quis nibh. Donec libero dui, eget est a wisi. Praesent justo. Suspendisse sed leo facilisis pharetra. Morbi aliquam euismod nonummy. Class aptent taciti sociosqu ad litora torquent per inceptos hymenaeos. Fusce tellus. Donec consectetuer mollis. Suspendisse semper nisl, blandit lectus. Vivamus dignissim erat at nunc semper erat, fringilla purus sit amet ligula. Sed ultricies quis, feugiat sapien, non dolor...
